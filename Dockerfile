@@ -5,4 +5,3 @@ WORKDIR /code
 ADD * /code/
 ADD pytransform /code/pytransform
 WORKDIR /code
-CMD python -u checker_client.py
