@@ -66,4 +66,6 @@ Examples where the BNN is most and least confident wrt to the classification on 
 
 ![](https://github.com/PFMB/NeuralBayesDropout/blob/main/test/jpegs/fashionmnist_most_confident.jpg)
 
+All code is implemented in th `main.py` file. Make sure to have all `requirements.txt` installed.
+
 This project was part of the Probabilistic Artificial Intelligence course at ETH. The skeleton was provided through the course while the core functionality was implemented by the author.
