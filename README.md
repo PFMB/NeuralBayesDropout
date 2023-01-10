@@ -58,12 +58,12 @@ TODO: Show reliability diagrams
 
 Examples on the prediction on the ambiguous and rotated MNIST test data:
 
-![](https://github.com/PFMB/NeuralBayesDropout/blob/main/ambiguous_rotated_mnist.jpg)
+![](https://github.com/PFMB/NeuralBayesDropout/blob/main/test/jpegs/ambiguous_rotated_mnist.jpg)
 
 Examples where the BNN is most and least confident wrt to the classification on Fashion MNIST:
 
-![](https://github.com/PFMB/NeuralBayesDropout/blob/main/fashionmnist_least_confident.jpg)
+![](https://github.com/PFMB/NeuralBayesDropout/blob/main/test/jpegs/fashionmnist_least_confident.jpg)
 
-![](https://github.com/PFMB/NeuralBayesDropout/blob/main/fashionmnist_most_confident.jpg)
+![](https://github.com/PFMB/NeuralBayesDropout/blob/main/test/jpegs/fashionmnist_most_confident.jpg)
 
 This project was part of the Probabilistic Artificial Intelligence course at ETH. The skeleton was provided through the course while the core functionality was implemented by the author.
