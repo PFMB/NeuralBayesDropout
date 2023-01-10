@@ -2,6 +2,8 @@
 
 This project designs a Bayesian Neural Network (BNN) with [MCDropout](https://arxiv.org/abs/1506.02142) and applies it to the Fashion MNIST and MNIST data set. The objective of this task is to get a reasonable calibration and accuracy with the designed BNN. The challenge is that the train and the test data do not come from the same distribution. The test images exhibit varying degrees of ambiguity and are further rotated by random angles. The ambiguity and the rotations introduce aleatoric and epistemic uncertainty since the utilized network only observes non-rotated images during training.
 
+### Bayesian Neural Network
+
 In a nutshell, a Bayesian Neural Network specifies a prior distribution over the weights and uses neural networks to parametrize the likelihood functions. The simplest example would be a Gaussian prior on the weights
 
 $$p(\theta) = N(0, \sigma^2_p I)$$
